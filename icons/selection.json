@@ -1,0 +1,119 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M829.538 674.462l-25.846 25.846-191.692-164.308-84 72-84-72-191.692 164.308-25.846-25.846 189.538-162.462-189.538-162.462 25.846-25.846 275.692 236.308 275.692-236.308 25.846 25.846-189.538 162.462 189.538 162.462zM192.115 256c-35.41 0-64.115 28.624-64.115 63.81v384.38c0 35.241 28.472 63.81 64.115 63.81h671.77c35.41 0 64.115-28.624 64.115-63.81v-384.38c0-35.241-28.472-63.81-64.115-63.81h-671.77z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "mail-envelope-closed"
+        ],
+        "grid": 32
+      },
+      "attrs": [],
+      "properties": {
+        "id": 12,
+        "order": 13,
+        "prevSize": 32,
+        "code": 59648,
+        "name": "mail-envelope-closed"
+      },
+      "setIdx": 1,
+      "setId": 2,
+      "iconIdx": 11
+    },
+    {
+      "icon": {
+        "paths": [
+          "M763.3 388.7l55.2-55.2c25.1-25.1 25.2-65.7 0.3-90.6l-37.7-37.7c-24.9-24.9-65.2-25.1-90.6 0.3l-55.2 55.2 128 128z",
+          "M228.7 667.3l-4.7 4.7-32 160 160-32 4.7-4.7z",
+          "M251.336 644.671l361.399-361.399 127.985 127.985-361.399 361.399-127.985-127.985z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "pen-angled"
+        ],
+        "grid": 32
+      },
+      "attrs": [],
+      "properties": {
+        "id": 268,
+        "order": 14,
+        "prevSize": 32,
+        "code": 59649,
+        "name": "pen-angled"
+      },
+      "setIdx": 1,
+      "setId": 2,
+      "iconIdx": 267
+    },
+    {
+      "icon": {
+        "paths": [
+          "M576 706.612v-52.78c70.498-39.728 128-138.772 128-237.832 0-159.058 0-288-192-288s-192 128.942-192 288c0 99.060 57.502 198.104 128 237.832v52.78c-217.102 17.748-384 124.42-384 253.388h896c0-128.968-166.898-235.64-384-253.388z"
+        ],
+        "tags": [
+          "user",
+          "profile",
+          "avatar",
+          "person",
+          "member"
+        ],
+        "defaultCode": 59761,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "user, profile2",
+        "name": "user",
+        "order": 12,
+        "id": 114,
+        "prevSize": 32,
+        "code": 59761
+      },
+      "setIdx": 2,
+      "setId": 1,
+      "iconIdx": 113
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icomoon"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon"
+    },
+    "historySize": 100,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}

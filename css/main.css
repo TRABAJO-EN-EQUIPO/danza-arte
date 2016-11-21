@@ -1,6 +1,7 @@
 /*------------------------------------------------------------------ GENERAL --*/
-* {
-    outline: 1px solid rgba(255, 0, 0, 0.38);
+body {
+    margin: 0;
+    padding: 0;
 }
 /*------------------------------------------------------------------ HEADER --*/
 header {
@@ -36,29 +37,168 @@ header li a:hover {
     height: 380px;
     color: #ebebeb;
 }
+.hero .studio, p, a {
+    margin-left: 30px;
+}
 .hero .studio {
     font-size: 50px;
     font-weight: bold;
-    margin-top: 40px;
+    margin-top: 60px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.hero a {
+    background: rgba(8, 8, 31, 0.89);
+    margin-top: 15px;
+    padding: 5px 30px;
+}
+.hero a:hover {
+    background: rgba(56, 56, 119, 0.60);
+    padding: 5px 30px;
+}
+.boton {
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+}
+.boton:hover {
+    background: rgba(52, 52, 52, 0.68);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+/*------------------------------------------------------------------- OFERTAS --*/
+.ofertas {
+    background: url(../img/textura_2.jpg) repeat;
+    background-size:auto;
+    padding: 80px 0;
+}
+.ofertas p {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px;
+}
+.ofertas .decoracion {
+    text-align: center;
+}
+.ofertas img {
+    width: 100px;
+    display: inline;
+    margin-top: -20px;
+}
+.ofertas a {
+    background: rgb(42, 42, 90);
+    border-radius: 8px;
+    padding: 10px 50px;
+    display: inline-block;
+    color: #fff;
+    margin: 0 auto;
+}
+.ofertas a:hover {
+     padding: 10px 50px;
+}
+.ofertas .boton {
+    font-size: 14px;
+    font-weight: 100;
+}
+/*------------------------------------------------------------------- INSTRUCTORES --*/
+.instructores .col-md-6 {
+    padding: 0;
+}
+.instructores .instructor-uno {
+    background: url(../img/instructor_4.jpg) no-repeat;
+    background-size: 100%;
+    height: 310px;
+    border: 1.5px solid #080840;
+}
+.instructores .instructor-dos {
+    background: url(../img/profesor_9.jpg);
+    background-size: 100%;
+    height: 310px;
+    border: 1.5px solid #080840;
+}
+.instructores p {
+    color: #fff;
+    position: relative;
+    margin: -70px 320px 0 320px;
+    padding: 25px 100px;;
+    background: #18235f;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    font-size: 19px;
+}
+/*------------------------------------------------------------------------- FRASE --*/
+.frase .cursiva {
+    font-style: italic;
+    font-size: 30px;
+    color: #000;
+    font-weight: 600;
+    padding: 15px;
+}
+/*---------------------------------------------------------------------- UBICACIÓN --*/
+.ubicacion {
+    background: #18235f;
+    padding: 80px 0 50px 0;
+}
+.ubicacion p, h4 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    margin-right: 100px;
+}
+.ubicacion h4 {
+    font-weight: bold;
+    margin-top: 30px;
+}
+.ubicacion iframe {
+    width: 80%;
+    height: 300px;
+    margin-left: 50px;
+}
+/*---------------------------------------------------------------------- CONTACTANOS --*/
+.contactanos {
+    background: url(../img/shoes_1.jpg) no-repeat;
+    background-position: right;
+    height: 466px;
+}
+.contactanos h2 {
+    color: #18235f;
+    font-weight: bold;
+    margin: 70px 0 0 60px;
+}
+.contactanos form {
+    width: 52%;
+    padding: 20px 0 20px 60px;
+}
+.contactanos label {
+    font-size: 26px;
+    margin: 11px 0 0 9px;
+    position: absolute;
+    vertical-align: middle;
+}
+.contactanos input, textarea {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0 5px 40px;
+    margin: 7px 0;
+}
+.contactanos textarea {
+    min-width: 100%;
+    max-width: 100%;
+    height: 100px;
+}
+.contactanos .enviar {
+    background: #18235f;
+    padding: 14px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+/*---------------------------------------------------------------------- FOOTER --*/
+footer {
+    background: #18235f;
+    padding: 20px 0 7px 0 ;
+}
+footer small {
+    color: #fff;
+}
