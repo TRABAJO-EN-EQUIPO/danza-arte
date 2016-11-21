@@ -1,10 +1,18 @@
 @font-face {
   font-family: 'icomoon';
+<<<<<<< HEAD
   src:  url('fonts/icomoon.eot?14llsh');
   src:  url('fonts/icomoon.eot?14llsh#iefix') format('embedded-opentype'),
     url('fonts/icomoon.ttf?14llsh') format('truetype'),
     url('fonts/icomoon.woff?14llsh') format('woff'),
     url('fonts/icomoon.svg?14llsh#icomoon') format('svg');
+=======
+  src:  url('fonts/icomoon.eot?ylqde9');
+  src:  url('fonts/icomoon.eot?ylqde9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ylqde9') format('truetype'),
+    url('fonts/icomoon.woff?ylqde9') format('woff'),
+    url('fonts/icomoon.svg?ylqde9#icomoon') format('svg');
+>>>>>>> 74ae3745a47b0858f5ba13f53971c43988493ae6
   font-weight: normal;
   font-style: normal;
 }
@@ -24,13 +32,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+<<<<<<< HEAD
 .icon-pencil:before {
   content: "\e905";
+=======
+.icon-mail-envelope-closed:before {
+  content: "\e900";
+}
+.icon-pen-angled:before {
+  content: "\e901";
+>>>>>>> 74ae3745a47b0858f5ba13f53971c43988493ae6
 }
 .icon-user:before {
   content: "\e971";
 }
+<<<<<<< HEAD
 .icon-mail:before {
   content: "\ea85";
 }
+=======
+>>>>>>> 74ae3745a47b0858f5ba13f53971c43988493ae6
 
