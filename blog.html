@@ -4,13 +4,46 @@
 	<meta charset="UTF-8">
 	<title>Escuela de Danza</title>
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
-	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/blog.css">
 </head>
 <body>
-	<!-- Inserta tu código aqui -->
-	blooog
-</body>
-</html>
+<!------------------------------------------------------------------- HEADER ----------->
+	<header>
+	    <div class="container">
+	        <h1>ESCUELA DE DANZA</h1>
+	        <div class="menu">
+	            <ul>
+	                <li><a href="nosotros.html">Nosotros</a></li>
+	                <li><a href="clases.html">Clases</a></li>
+	                <li><a href="blog.html">Blog</a></li>
+	                <li><a href="#contact">Contáctanos</a></li>
+	            </ul>
+	        </div>
+	    </div>
+	</header>
+<!------------------------------------------------------------------- HERO ----------->
+
+
+<!------------------------------------------------------------ CONTACTANOS ----------->
+    <section class="contactanos">
+        <div class="container">
+            <h2><a name="contact"></a>Contáctanos</h2>
+            <form action="">
+                <label class="icon-user" for="nombre"></label>
+                <input type="text" id="nombre" placeholder="Nombre">
+                <label class="icon-mail-envelope-closed" for="email"></label>
+                <input type="text" id="email" placeholder="Email">
+                <label class="icon-pen-angled" for="mensaje"></label><textarea type="text" id="mensaje" placeholder="Mensaje"></textarea>
+                <input class="enviar" type="submit" value="ENVIAR">
+            </form>
+        </div>
+    </section>
+<!----------------------------------------------------------------- FOOTER ----------->
+<footer>
+    <div class="container">
+        <small>©Escuela de danza. Todos los derechos reservados.</small>
+    </div>
+</footer>
