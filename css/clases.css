@@ -33,7 +33,15 @@ header li a:hover {
     padding: 10px;
 }
 /*--------------------------------------------------------------------- HERO --*/
-
+.hero {
+    background: #ccc;
+}
+.hero .foto1 {
+    background: url(../img/dance_12.jpg) no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+    height: 500px;
+}
 
 /*---------------------------------------------------------------------- CONTACTANOS --*/
 .contactanos {
