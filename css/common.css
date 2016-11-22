@@ -3,6 +3,13 @@ body {
     margin: 0;
     padding: 0;
 }
+.inicio {
+    color: #00006d;
+}
+.inicio:hover {
+    color: #00006d;
+    text-decoration: none;
+}
 /*------------------------------------------------------------------ HEADER --*/
 header {
     text-align: center;
