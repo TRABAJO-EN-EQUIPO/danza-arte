@@ -32,9 +32,28 @@ header li a:hover {
     text-decoration: none;
     padding: 10px;
 }
-/*--------------------------------------------------------------------- HERO --*/
+/*-----------------------------------------------------------------#F1EFFA;---- HERO --*/
 
+.hero{
+    background-color: #F4F4F4;
+   
+}
 
+.fondo{
+    background-color:yellow;
+    
+    
+    
+}
+.hero img{
+    width: 100%;
+    height: 250px;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
 /*---------------------------------------------------------------------- CONTACTANOS --*/
 .contactanos {
     background: url(../img/shoes_1.jpg) no-repeat;
