@@ -1,21 +1,66 @@
 /*------------------------------------------------------------------ GENERAL --*/
-* {
-    outline: 1px solid rgba(255, 0, 0, 0.51);
-}
+
 body {
     margin: 0;
     padding: 0;
 }
+.container {
+    width: 80%;
+}
 /*--------------------------------------------------------------------- HERO --*/
 .hero {
     background: #efefef;
+    padding-bottom: 40px; 
 }
-.hero .fondo {
-    position: relative;
+.hero h3 {
+    text-align: center;
+    font-weight: bold;
+    margin: 50px 0 20px 0;
 }
-.hero .text-center {
-    position: absolute;
-    top: -200px;
-    z-index: 1000;
+.hero .row {
+    margin-bottom: 30px;
 }
-
+.hero .presentacion {
+    height: 430px;
+    width: 100%;
+    display: table;
+}
+.hero .texto-clase {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.hero p {
+    background: rgba(0, 0, 0, 0.74);
+    padding: 10px 30px;
+    margin: 0 10px;
+    color: #fff;
+}
+.hero .clase {
+    height: 430px;
+}
+.hero .uno {
+    background: url(../img/dance_12.jpg) no-repeat center;
+    background-size: cover;
+}
+.hero .dos {
+    background: url(../img/breakdance.jpg) no-repeat center;
+    background-size: cover;
+}
+.hero .tres {
+    background: url(../img/lirical-jazz.jpg) no-repeat center;
+    background-size: cover;
+}
+.hero .cuatro {
+    background: url(../img/arabe.jpg) no-repeat center;
+    background-size: cover;
+}
+.hero .cinco {
+    background: url(../img/little.jpg) no-repeat center;
+    background-size: cover;
+}
+.hero .seis {
+    background: url(../img/yoga.jpg) no-repeat center;
+    background-size: cover;
+}
+/*--------------------------------------------------------------------- END HERO --*/
