@@ -1,6 +1,6 @@
 /* Inserta tu codigo aqui */
 *{
-    outline: 1px solid blue;
+    
 }
 
 
@@ -83,32 +83,34 @@ header li a:hover {
     font-family: inherit;
     color: black;
 }
+
+.instructor{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
 .lista-instructor img{
     width: 100%;
-    height: 230px;
-    padding-top:30px;
-    margin-top: 20px;
-  
+    height: 350px;
+    padding-top: 50px;
 }
 
 .txt1{
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
    
 }
 
-h3{
-    
+
+h3{ 
     font-family: inherit;
     color: black;
 }
 
 .instructores p{
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
-.contenedor img{
+.contenedor{
+    height: 300px;
     overflow:hidden;
     
 }

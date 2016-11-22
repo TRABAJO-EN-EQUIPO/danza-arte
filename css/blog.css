@@ -33,23 +33,42 @@ header li a:hover {
 
 .hero{
     background-color: #F4F4F4;
-   
+    padding-bottom: 80px;
 }
 
 .fondo{
-    background-color:yellow;
-    
-    
-    
+    background-color:#D6D6DB;
+    margin-top: 40px;
 }
+
+
 .hero img{
-    width: 100%;
-    height: 250px;
+    width: 90%;
+    height: 230px; 
+   
+}
+
+.hero .col-md-3{
     padding: 0;
 }
 
-h1{
+h3{
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
+}
+
+.fondo button{
+    border-radius: 5px;
+    background:#18235f;
+    border-color:#18235f;
+    width: 180px;
+    height: 35px;
+}
+
+.fondo a{
+    text-decoration: none;
+    color: white;
 }
 /*---------------------------------------------------------------------- CONTACTANOS --*/
 .contactanos {
