@@ -1,9 +1,8 @@
 /* Inserta tu codigo aqui */
-*{
-    outline: 1px solid blue;
+body {
+    margin: 0;
+    padding: 0;
 }
-
-
 /*------------------------------------------------------------------ HEADER --*/
 header {
     text-align: center;
@@ -31,31 +30,37 @@ header li a:hover {
     padding: 10px;
 }
 /*------------------------------------------------------------------ HERO --*/
-.hero{
+.hero {
     background: url(../img/dance_7.jpg);
     background-position: left 630px;
     background-size: 150%;
     height: 400px;
-  
 }
-
-.presentacion{
-   
-    height: 100%;
-    margin-top: 150px;   
+.hero .presentacion {
+    height: 400px;
+    width: 100%;
     display: table;
 }
 
-.texto{
+.hero .texto {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    height: 200px;
-    width: 250%;
-    opacity: 0.5;
-    background: blue;
-    
+    color: #fff;
 }
+.hero .texto h2 {
+    background: rgba(0, 0, 0, 0.45);
+    margin: 0 300px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.hero .texto p {
+    background: rgba(0, 0, 0, 0.45);
+    margin: 0 300px;
+    padding: 20px 20px 40px 20px;
+}
+
 /*------------------------------------------------------------------INFORMACION --*/
 .info{
     background: url(../img/cubes.png);
@@ -72,7 +77,7 @@ header li a:hover {
     
 }
 .box h2{
-    color: #A8A8AE;
+    color: #A8 A8AE;
 }
 .box p {
     color:#C7C7CB;
