@@ -1,4 +1,4 @@
-/* Inserta tu codigo aqui */
+/* ----------------------GENERAL ------ */
 body {
     margin: 0;
     padding: 0;
@@ -65,7 +65,11 @@ header li a:hover {
 .info{
     background: url(../img/cubes.png);
     height:350px;
-   
+}
+.info p {
+    line-height: 1.3em;
+    font-family: Helvetica;
+    color: #bcbcbc;
 }
 .informacion{
     padding: 20px;
@@ -77,10 +81,12 @@ header li a:hover {
     
 }
 .box h2{
-    color: #A8 A8AE;
-}
-.box p {
-    color:#C7C7CB;
+    color: #bebebe;
+    font-weight: bold;
+    font-size: 25px;
+    border-bottom: 1px solid #bebebe;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 /*------------------------------------------------------------------ LISTA INSTRUCTORES --*/
@@ -88,32 +94,34 @@ header li a:hover {
     font-family: inherit;
     color: black;
 }
+
+.instructor{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
 .lista-instructor img{
     width: 100%;
-    height: 230px;
-    padding-top:30px;
-    margin-top: 20px;
-  
+    height: 350px;
+    padding-top: 50px;
 }
 
 .txt1{
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
    
 }
 
-h3{
-    
+
+h3{ 
     font-family: inherit;
     color: black;
 }
 
 .instructores p{
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
-.contenedor img{
+.contenedor{
+    height: 300px;
     overflow:hidden;
     
 }
@@ -142,53 +150,5 @@ h3{
     color: #000;
     font-weight: 600;
 }
-/*------------------------------------------------------------------ CONTACTANOS --*/
-.contactanos {
-    background: url(../img/shoes_1.jpg) no-repeat;
-    background-position: right;
-    height: 466px;
-}
-.contactanos h2 {
-    color: #18235f;
-    font-weight: bold;
-    margin: 70px 0 0 60px;
-}
-.contactanos form {
-    width: 52%;
-    padding: 20px 0 20px 60px;
-}
-.contactanos label {
-    font-size: 26px;
-    margin: 11px 0 0 9px;
-    position: absolute;
-    vertical-align: middle;
-}
-.contactanos input, textarea {
-    display: inline-block;
-    width: 100%;
-    padding: 5px 0 5px 40px;
-    margin: 7px 0;
-}
-.contactanos textarea {
-    min-width: 100%;
-    max-width: 100%;
-    height: 100px;
-}
-.contactanos .enviar {
-    background: #18235f;
-    padding: 14px;
-    color: #fff;
-    border-radius: 5px;
-    font-size: 16px;
-}
-/*------------------------------------------------------------------ PIE DE PAGINA --*/
-footer {
-    background: #18235f;
-    padding: 20px 0 7px 0 ;
-}
-footer small {
-    color: #fff;
-}
 
-
-
+/*------------------------------------------------------------------ END FRASE --*/
